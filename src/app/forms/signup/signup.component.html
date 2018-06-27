@@ -1,0 +1,22 @@
+<div class="xx" id="xx" (click)="onNoClick()"></div>
+  <form id="signup-form" (ngSubmit)="signupHandler(signupForm)" #signupForm="ngForm">
+      <h4>Sign Up</h4>
+
+      <input type="text" placeholder="Firstname" name="firstname" required ngModel>
+
+      <input type="text" placeholder="Lastname" name="lastname" required ngModel>
+
+      <input type="email" placeholder="Enter Email" name="email" required email ngModel #email="ngModel">
+
+
+      <input type="password" placeholder="Enter Password" name="password" required ngModel #password="ngModel">
+
+      <input type="password" placeholder="Repeat Password" name="repeat" required ngModel #repeat="ngModel">
+
+      <p class="alerttxt" *ngIf="!email.valid && email.touched">Enter valid Email!</p>
+
+      <p class="alerttxt">{{errorMessage}}</p>
+      <p class="successtxt">{{successMessage}}</p>
+
+      <button [disabled]="!signupForm.valid" type="submit" form="signup-form" id="signup-btn">Sign Up</button>
+  </form>

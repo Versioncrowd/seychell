@@ -1,0 +1,15 @@
+<div class="xx" id="xx" (click)="onNoClick()"></div>
+  <form id="login-form" (ngSubmit)="loginHandler(loginForm)" #loginForm="ngForm">
+      <h4>Login</h4>
+
+      <input type="email" placeholder="Enter Email" name="email" required ngModel #email="ngModel">
+
+      <input type="password" placeholder="Enter Password" name="password" required minlength="6" ngModel>
+
+      <p class="alerttxt" *ngIf="!email.valid && email.touched">Enter valid Email!</p>
+
+      <p class="alerttxt">{{errorMessage}}</p>
+      <p class="successtxt">{{successMessage}}</p>
+
+      <button type="submit" form="login-form" id="login-btn">Login</button>
+  </form>

@@ -1,0 +1,27 @@
+<p class="welcome"><span class="hi">Hi, {{firstname}} {{lastname}}.</span><br/>Here, your weather info.</p>
+<p class="date"> Seychelles, {{time}}</p>
+<table *ngIf="weatherData">
+    <tr>
+        <td>Weather</td><td>{{weatherData.weather}}</td>
+    </tr>
+  <tr>
+    <td>Weather (detailed)</td><td>{{weatherData.detailed}}</td>
+  </tr>
+  <tr>
+    <td>Temperature</td><td>{{weatherData.temperature}} &deg;C</td>
+    </tr>
+  <tr>
+    <td>Humidity in %</td><td>{{weatherData.humidity}}</td>
+  </tr>
+  <tr>
+    <td>Windspeed in %</td><td>{{weatherData.windspeed}} mps</td>
+  </tr>
+  <tr>
+    <td>Pressure</td><td>{{weatherData.pressure}} hPa</td>
+  </tr>
+</table>
+
+
+<p *ngIf="errorMessage"> There was an error loading contacting the weather API: {{errorMessage}}</p>
+
+

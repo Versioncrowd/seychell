@@ -1,0 +1,29 @@
+.not-found {
+  color: aqua;
+  display: block;
+  margin: 35vh auto 0 auto;
+  width: 50%;
+  font-size: 1rem;
+  font-size: 1.8rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  z-index: -15;
+  background-color: aquamarine;
+  background-image: url("./../../assets/img/seychelles1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 400px) {
+  .not-found {
+    width: 80vw;
+    font-size: 1.2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+}

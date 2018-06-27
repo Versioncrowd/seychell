@@ -1,0 +1,6 @@
+<ul class="menu">
+    <li *ngIf="!isLoggedIn" class="menulinks" (click)="openLogin()">Login</li>
+    <li *ngIf="!isLoggedIn" class="menulinks" (click)="openSignup()">Sign Up</li>
+    <li *ngIf="isLoggedIn" class="menulinks" (click)="goToWeather()">Weather</li>
+    <li *ngIf="isLoggedIn" class="menulinks" (click)="logout()">Logout</li>
+</ul>
