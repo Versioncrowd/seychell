@@ -3,7 +3,7 @@
 https://seychell.sabinegottfried.de/
 
 Seychell is a small weather information app conceived for a coding challenge as part of a job application.
-I had never used Angular before and learned it for this assignment. This was my first try at it. For the rest its using Node.js and MongoDB.
+I had **never used Angular before and learned it for this assignment**. This was my first try at it. For the rest its using **Node.js** and **MongoDB**.
 
 ## The Project Brief: 
 (5 days completion time)
