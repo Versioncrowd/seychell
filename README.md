@@ -16,7 +16,7 @@ display the weather in Seychelles islands, because one day we may just go there 
 ###### 1. Signup page​
 Here our users could register in the application. They should be able to enter
 their first name, last name, email and password credentials.
-######2. Login page 
+###### 2. Login page 
 The main page of the app. It should contain a header title and image (up to your
 own creativity), and two input fields: one for email and another one for password. Please try to
 follow security best practices when storing the password and when entering incorrect
