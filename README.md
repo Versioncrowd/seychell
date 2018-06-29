@@ -13,13 +13,16 @@ We need a system where our users can log in to know the current day (DD MM YYYY)
 display the weather in Seychelles islands, because one day we may just go there to have fun.
 
 ## Requirements:
-1. Signup page​. Here our users could register in the application. They should be able to enter
+###### 1. Signup page​
+Here our users could register in the application. They should be able to enter
 their first name, last name, email and password credentials.
-2. Login page​. The main page of the app. It should contain a header title and image (up to your
+######2. Login page 
+The main page of the app. It should contain a header title and image (up to your
 own creativity), and two input fields: one for email and another one for password. Please try to
 follow security best practices when storing the password and when entering incorrect
 credentials.
-3. Welcome page​. This is the page where the user is automatically redirected after a successful
+###### 3. Welcome page
+This is the page where the user is automatically redirected after a successful
 login. The screen should contain four different sections:
 - Welcome section: a welcome message that should contain the first name and last name
 of the user (something like: Welcome back John Brown)
