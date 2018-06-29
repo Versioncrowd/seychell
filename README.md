@@ -2,18 +2,17 @@
 
 https://seychell.sabinegottfried.de/
 
-SEYCHELL IS A SMALL WEATHER INFORMATION APP CONCEIVED FOR A CODING CHALLENGE AS PART OF A JOB APPLICATION.
+Seychell is a small weather information app conceived for a coding challenge as part of a job application.
+I had never used Angular before and learned it for this assignment. This was my first try at it. For the rest its using Node.js and MongoDB.
 
-I HAVE NEVER USED ANGULAR. AND THIS WAS MY FIRST TRY AT IT. FOR THE REST ITS USING NODE.JS AND MONGODB.
-
-The PROJECT BRIEF HERE: 
+## The Project Brief: 
 (5 days completion time)
 
-##Scenario:
+## Scenario:
 We need a system where our users can log in to know the current day (DD MM YYYY) and
 display the weather in Seychelles islands, because one day we may just go there to have fun.
 
-##Requirements:
+## Requirements:
 1. Signup page​. Here our users could register in the application. They should be able to enter
 their first name, last name, email and password credentials.
 2. Login page​. The main page of the app. It should contain a header title and image (up to your
@@ -38,7 +37,7 @@ minutes, he/she should be redirected to the login page.
 Again, the layout of this page and the different ways to find your data are totally up to your own
 taste and creativity.
 
-##Considerations:
+## Considerations:
 - We propose the usage of MEAN stack​ technologies: MongoDB, Express, Angular and
 NodeJS.
 - Ideally, your final app should be online​, accessible from any computer. To do so, it
